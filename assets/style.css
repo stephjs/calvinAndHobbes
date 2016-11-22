@@ -1,0 +1,30 @@
+body {
+  background-color: black;
+  color: white;
+  margin: 0 auto;
+  font-family: 'Stardos Stencil', cursive;
+}
+
+img{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+#parent { 
+  height: 100%; 
+  width: 100%;
+  display: table; 
+}
+
+#child {
+  margin-top: 10%;
+/*   display: table-cell; 
+  vertical-align: middle; */
+}
+#quote, #author {
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
